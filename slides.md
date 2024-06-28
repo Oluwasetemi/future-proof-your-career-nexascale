@@ -436,16 +436,22 @@ hideInToc: true
 
 # Shoutout
 
+<v-clicks>
+
 Thank you to NexaScale team for the opportunity Ore, Jennifer, Adora, Fatimah, Busayo and others.
 I admire Adora and her work in the tech community. Thank you taking the conversation global and Congratulations on the new challenge.
 
-<div class="mt-5" v-click>
+<div class="mt-5" >
   🙌💥Special thank you to Jennifer💥🙌
 </div>
 
-<p class="mt-5" v-click="2">
+Thank you Sandrine for the constant care for AltSchoolers.
+<p class="mt-5" >
   🎆Special thank you to Everyone who is working hard out of Africa, understanding the odds seems not to be in our favour but we are changing the narratives🎆
 </p>
+</v-clicks>
+
+
 
 <!-- <div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
 
