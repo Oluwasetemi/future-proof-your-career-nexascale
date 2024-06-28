@@ -21,6 +21,8 @@ drawings:
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/guide/syntax#mdc-syntax
 mdc: true
+hideInToc: true
+
 ---
 
 # Future Proofing Your Career: Skills and Mindsets for Success in Tomorrow's World
@@ -40,6 +42,8 @@ mdc: true
   </a>
 </div>
 
+---
+hideInToc: true
 ---
 
 # Who am I?
@@ -87,6 +91,8 @@ Here is another comment.
 -->
 
 ---
+hideInToc: true
+---
 
 # Expectations
 
@@ -104,18 +110,20 @@ Here is another comment.
 - No prerequisite is needed, just hope to shift you mindset and transform your career with helpful ideas
 
 ---
+hideInToc: true
+---
 
 # Table of contents
 
-1. Learning How To Learn
+<!-- 1. Learning How To Learn
 2. Searching For The Best Resources
 3. Motivation and Discipline
 4. Quality Building and Practice
 5. Dare to Go Global with a reputation
 6. Understand the Trends
-7. Some soft skills and Technical skills
+7. Some soft skills and Technical skills -->
 
-<!-- <Toc/> -->
+<Toc />
 
 ---
 
@@ -129,18 +137,7 @@ It is the courage to take on a piece of information and distill it till you are 
 
 <!-- Use code snippets and get the highlighting directly, and even types hover![^1]
 
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
 
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
 
 <arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
 
@@ -171,6 +168,26 @@ Notes can also sync with clicks
 
 [click:3] Last click (skip two clicks)
 -->
+
+---
+hideInToc: true
+---
+
+# Thoughts from Sandrine
+
+<v-clicks>
+
+- What matters is what learners do with what they have learned, because watching LMS or attending live classes is just one step, learning is completed when you do something with what you learned. #Being Action biased
+
+- Learners should not put their focus on learning to pass the exam or  test. That's traditional schooling method.
+
+
+- Learners should go beyond being consumers but aspire to be contributors or creators of the tech ecosystem Worldwide. This was about African techies not being part of big decisions being made in tech field.
+
+- For someone to advance in tech professional, especially software engineering, they need to build things. For instance, some one can choose to graduate from AltSchool Africa when they are close to being a mid-level engineer depending on the quality of projects they have built.
+
+</v-clicks>
+
 
 ---
 
@@ -397,11 +414,20 @@ Understand the times and season in your life, career and tech space.
 - Know your tools and the every new features
 
 ---
+hideInToc: true
+---
 
 # Some soft skills and Technical skills
 
 ---
+hideInToc: true
+---
+
+# Random Quotes
+
 > "The producer of old age is habit: the deathly process of doing the same thing in the same way at the same hour day after day, first from carelessness, then from inclination, at last from cowardice or inertia.
+
+<div class="mb-20"></div>
 
 > Habit is necessary; but it is the habit of having careless habits, of turning a trail into a rut, that must be incessantly fought against if one is to remain alive... one can remain alive long past the usual date of disintegration if one is unafraid of change, insatiable in intellectual curiosity, interested in big things, and happy in small ways."
 >
@@ -507,6 +533,8 @@ sayHello()
 console.log(`vue ${version}`)
 console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
 ``` -->
+---
+hideInToc: true
 ---
 
 # The End
